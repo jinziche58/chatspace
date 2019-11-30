@@ -14,7 +14,7 @@
 ## groupsテーブル
 |Column | Type | Options|
 |-----|-----|-----|
-|group|_name|string null: false, unique: true|
+|group|name|string null: false, unique: true|
 
 ## Association
 - has_many :groups_users
